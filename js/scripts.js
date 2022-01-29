@@ -1,19 +1,26 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    const number1 = parseInt($("input#beverage").val());
-    const number2 = parseInt($("input#music").val());
-    const number3 = parseInt($("input#movie").val());
-    const number4 = parseInt($("input#sport").val());
-    const number5 = parseInt($("input#relax").val());
-    const sum = (number1 + number2 + number3 + number4 + number5) ;
+  $("form#formOne").submit(function() {
+    const number1 = parseInt($("select#beverage").val());
+    const number2 = parseInt($("select#music").val());
+    const number3 = parseInt($("select#movie").val());
+    const number4 = parseInt($("select#sport").val());
+    const number5 = parseInt($("select#relax").val());
+    const result = $(number1 + number2 + number3 + number4 + number5) ;
 
-    if (sum < 15) {
+
+    
+    if (number1 === 1) {
       $('#html').show();
-    } else if (sum === 10) {
+    } else if (number1 === 2) {
       $('#css').show();
-    } else {
+    } else if (number1 === 3) {
       $('#javaScript').show();
     }
+    
     event.preventDefault();
   });
 });
+
+// $("#formOne").submit(function(event) {
+//   event.preventDefault();
+

@@ -10,6 +10,7 @@ _This webpage allows readers to enter data into an algorithm that will determine
 
 * _HTML_
 * _CSS_
+* _JavaScript_
 * _GitHub_
 * _VS Code_
 * _Bootstrap_
