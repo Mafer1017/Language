@@ -20,7 +20,3 @@ $(document).ready(function() {
     event.preventDefault();
   });
 });
-
-// $("#formOne").submit(function(event) {
-//   event.preventDefault();
-
