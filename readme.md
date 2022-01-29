@@ -23,7 +23,7 @@ _This webpage allows readers to enter data into an algorithm that will determine
 * _Press "Show me the Language" button to submit answers._
 * _receive result._
 
-* _Alternatively, you can view the project by following [this link](https://mafer1017.github.io/portfolio/)_
+* _Alternatively, you can view the project by following [this link](https://github.com/Mafer1017/Language)_
 
 ## Known Bugs
 
