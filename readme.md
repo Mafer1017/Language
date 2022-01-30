@@ -27,7 +27,7 @@ _This webpage allows readers to enter data into an algorithm that will determine
 * _Alternatively, you can view the project by following [this link](https://github.com/Mafer1017/Language)_
 
 ## Known Bugs
-
+* _Unable to remove, clear, or replace previous answers after re-submitting answers for new result._
 ## License
 [MIT](https://opensource.org/licenses/MIT)
 
