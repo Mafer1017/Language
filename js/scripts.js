@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#surveyOne").submit(function() {
+  $("form#surveyOne").submit(function(event) {
     const number1 = parseInt($("select#drink").val());
     const number2 = parseInt($("select#music").val());
     const number3 = parseInt($("select#movie").val());
@@ -7,7 +7,9 @@ $(document).ready(function() {
     const number5 = parseInt($("select#relax").val());
     const result = number1 + number2 + number3 + number4 + number5;
 
-
+    $("#html").hide();
+    $("#css").hide();
+    $("#javaScript").hide();
     
     if (result < 10) {
       $('#html').show();
@@ -16,6 +18,9 @@ $(document).ready(function() {
     } else if (result > 10) {
       $('#javaScript').show();
     }
+    // $("#clear").click(function () {
+    //   $(".form-control").val(0);
+    //   $("result").html("");}
     event.preventDefault();
   });
 });
