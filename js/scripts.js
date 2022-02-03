@@ -18,9 +18,6 @@ $(document).ready(function() {
     } else if (result > 10) {
       $('#javaScript').show();
     }
-    // $("#clear").click(function () {
-    //   $(".form-control").val(0);
-    //   $("result").html("");}
     event.preventDefault();
   });
 });
